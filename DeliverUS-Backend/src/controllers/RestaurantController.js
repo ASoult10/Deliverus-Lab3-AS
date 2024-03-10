@@ -1,5 +1,5 @@
 import { Restaurant, Product, RestaurantCategory, ProductCategory } from '../models/models.js'
-// Cosita
+// Cosit
 const index = async function (req, res) {
   try {
     const restaurants = await Restaurant.findAll(
